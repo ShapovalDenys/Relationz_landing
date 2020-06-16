@@ -1,0 +1,109 @@
+.try-it {
+  position: relative;
+  margin-top: 20px;
+  max-width: 1000px;
+  background-color: white;
+  &__wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__description {
+    max-width: 430px;
+    & h2 {
+      display: inline-block;
+      position: relative;
+      z-index: 10;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 49px;
+      color: #222;
+      margin-bottom: 16px;
+    }
+    & p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      color: #73738d;
+      margin-bottom: 20px;
+    }
+  }
+  &__form {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  &__input {
+    display: inline-block;
+    height: 42px;
+    width: 70%;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    color: rgba(115, 115, 141, 0.6);
+    padding-left: 16px;
+    background-color: #fbfbfd;
+    border: none;
+    border-radius: 21px;
+    padding-right: 10%;
+    outline: none;
+  }
+  &__button {
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    width: 151px;
+    height: 42px;
+    border-radius: 21px;
+    background: #1943ef;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: white;
+      border: 1px solid #1943ef;
+      color: #1943ef;
+    }
+  }
+  &__mark {
+    color: #73738d;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    margin-right: 18px;
+    & img {
+      margin-right: 3px;
+    }
+  }
+  &__picture {
+    position: relative;
+  }
+  &__decoration {
+    left: -40px;
+    bottom: 10px;
+    transform: scale(2.1);
+  }
+  &__decoration-1 {
+    right: -30px;
+    bottom: 150px;
+    transform: scale(0.6);
+  }
+  &__decor-text {
+    position: relative;
+    top: 38px;
+    left: -20px;
+    display: grid;
+    grid-template-columns: repeat(5, 2px);
+    column-gap: 10px;
+    row-gap: 10px;
+    & div {
+      position: relative;
+      display: inline-block;
+      width: 2px;
+      height: 2px;
+      background: #de6944;
+      z-index: 1;
+    }
+  }
+}

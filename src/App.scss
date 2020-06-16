@@ -1,0 +1,10 @@
+@import "./css-reset.scss";
+@import "./fonts.scss";
+
+.App {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: "Gilroy", sans-serif;
+  overflow: hidden;
+  box-shadow: 40px 16px 80px rgba(172, 143, 143, 0.05), 80px -40px 80px rgba(172, 143, 143, 0.13), 0 80px 240px rgba(136, 116, 116, 0.25);
+}

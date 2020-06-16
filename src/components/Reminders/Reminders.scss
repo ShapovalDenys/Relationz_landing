@@ -1,0 +1,230 @@
+.reminders {
+  max-width: 800px;
+  margin: 70px auto;
+  background: #f5f5fb;
+  border-radius: 20px;
+  box-shadow: 1px 14px 554px #f2f5fa;
+  position: relative;
+  height: 450px;
+  &__decor {
+    top: -45px;
+    left: 770px;
+    z-index: -1;
+    & div {
+      background: #64cce3;
+    }
+  }
+  &__task {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #eaedf3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  &__form {
+    margin-left: 20px;
+    &-input {
+      width: 286px;
+      height: 28px;
+      background: #fbfbfd;
+      border: none;
+      border-radius: 21px;
+      outline: none;
+      padding-left: 36px;
+      font-weight: 500;
+      font-size: 10px;
+    }
+    &-button {
+      border-radius: 21px;
+      height: 28px;
+      width: 102px;
+      margin-left: 16px;
+      font-size: 10px;
+      font-weight: 600;
+      background: #1943ef;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: white;
+        border: 1px solid #1943ef;
+        color: #1943ef;
+      }
+    }
+  }
+  &__time {
+    width: 50px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 11px;
+    color: #222;
+  }
+  &__settings {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    & img {
+      cursor: pointer;
+    }
+  }
+  &__decoration {
+    width: 1px;
+    height: 30px;
+    background-color: rgba(234, 237, 243, 0.6);
+  }
+  &__message {
+    max-width: 768px;
+    margin: 16px auto;
+    background: #1943ef;
+    border-radius: 12px;
+    padding: 28px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    & h2 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 23px;
+    }
+    & p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 180%;
+      max-width: 390px;
+    }
+    & div {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      transform: rotate(45deg);
+      font-size: 24px;
+    }
+    & a {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      width: 102px;
+      height: 30px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 22px;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 500;
+      font-size: 10px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: white;
+        color: #1943ef;
+      }
+    }
+  }
+  &__meetings-wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 768px;
+    margin: 16px auto;
+  }
+  &__meetings-outer {
+    width: 360px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 11px;
+    margin-bottom: 16px;
+  }
+}
+
+.meetings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  & h3 {
+    font-weight: 600;
+    font-size: 11px;
+    color: #222;
+  }
+  &__decoration {
+    margin: 0 auto;
+    width: 95%;
+    height: 1px;
+    border-bottom: 1px solid #eaedf3;
+    opacity: 0.6;
+  }
+  &__table {
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #fbfbfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & span {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 12px;
+      color: black;
+    }
+  }
+  &__table-span-center {
+    margin-left: 25px;
+  }
+  &__paragraph-user {
+    display: flex;
+    align-items: center;
+    & h4 {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 11px;
+      color: rgba(34, 34, 34, 0.6);
+    }
+    & img {
+      margin-right: 3px;
+    }
+  }
+  &__paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 30px;
+    & h4 {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 11px;
+      color: rgba(34, 34, 34, 0.6);
+    }
+  }
+  &__paragraph-action {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+  &__paragraph-button {
+    width: 38px;
+    height: 16px;
+    background: rgba(38, 194, 150, 0.1);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 11px;
+    color: #26c296;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background: #26c296;
+      color: white;
+    }
+  }
+  &__paragraph-button-disable {
+    background: #f8f8f8;
+    color: rgba(34, 34, 34, 0.4);
+  }
+}
