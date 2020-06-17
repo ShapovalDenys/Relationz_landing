@@ -53,32 +53,32 @@ function Testimonials() {
         </div>
       </div>
       <img
-        className="testimonials__background-1"
+        className="testimonials__background-1 background"
         src="./img/testimonials-background-user-1.png"
         alt="testimonials-background-user"
       />
       <img
-        className="testimonials__background-2"
+        className="testimonials__background-2 background"
         src="./img/testimonials-background-user-2.png"
         alt="testimonials-background-user"
       />
       <img
-        className="testimonials__background-3"
+        className="testimonials__background-3 background"
         src="./img/testimonials-background-user-3.png"
         alt="testimonials-background-user"
       />
       <img
-        className="testimonials__background-4"
+        className="testimonials__background-4 background"
         src="./img/testimonials-background-user-4.png"
         alt="testimonials-background-user"
       />
       <img
-        className="testimonials__background-5"
+        className="testimonials__background-5 background"
         src="./img/testimonials-background-user-5.png"
         alt="testimonials-background-user"
       />
       <img
-        className="testimonials__background-6"
+        className="testimonials__background-6 background"
         src="./img/testimonials-background-user-6.png"
         alt="testimonials-background-user"
       />

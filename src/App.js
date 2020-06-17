@@ -8,6 +8,7 @@ import Notification from './components/Notification/Notification';
 import Sync from './components/Sync/Sync';
 import Connected from './components/Connected/Connected';
 import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Sync />
       <Connected />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

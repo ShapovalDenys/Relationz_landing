@@ -51,6 +51,7 @@ function Notification() {
             <a href="/">
               {' '}
               Follow up
+              {' '}
               <img src="./img/follow-me.svg" alt="follow-me" />
             </a>
           </p>

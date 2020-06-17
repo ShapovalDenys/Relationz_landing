@@ -26,6 +26,10 @@
     margin-left: 37px;
     color: #73738d;
     padding: 20px 0;
+    transition: 0.3s;
+    &:hover {
+      color: #1943ef;
+    }
     &-active {
       margin-left: 27px;
       width: 118px;
@@ -66,5 +70,55 @@
     height: 34px;
     background: white;
     border-radius: 50%;
+  }
+}
+
+.mobile {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f26a36;
+  border-radius: 20px;
+  z-index: 20;
+  transition: 0.3s;
+  transform: translateY(-500%);
+  &__active {
+    transform: translateY(160px);
+  }
+  &__menu {
+    display: none;
+  }
+  &__nav-link-active {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  &__nav-link,
+  &__nav-link-active {
+    line-height: 40px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .mobile {
+    display: inline-block;
+    &__menu {
+      display: inline-block;
+    }
+  }
+  .header {
+    &__wrap {
+      max-width: 90%;
+    }
+    &__nav {
+      display: none;
+    }
+    &__decoration {
+      left: 50%;
+    }
   }
 }

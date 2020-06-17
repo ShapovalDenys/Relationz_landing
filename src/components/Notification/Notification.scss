@@ -91,3 +91,24 @@
     }
   }
 }
+
+@media screen and (max-width: 850px) {
+  .notification {
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    &__messages {
+      max-width: 90%;
+    }
+    &__description {
+      max-width: 90%;
+      text-align: center;
+      &-mark {
+        display: grid;
+        grid-template-columns: repeat(2, 140px);
+        justify-content: center;
+        row-gap: 16px;
+      }
+    }
+  }
+}
