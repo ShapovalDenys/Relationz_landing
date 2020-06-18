@@ -70,7 +70,7 @@ function Connected() {
             <span>
               <img src="./img/mark.svg" alt="mark" />
               {' '}
-              The multichannel
+              Surroundings
             </span>
             <span>
               <img src="./img/mark.svg" alt="mark" />
@@ -80,12 +80,12 @@ function Connected() {
             <span>
               <img src="./img/mark.svg" alt="mark" />
               {' '}
-              The multichannel
+              Business Meetings
             </span>
             <span>
               <img src="./img/mark.svg" alt="mark" />
               {' '}
-              The multichannel
+              Seatch details
             </span>
           </div>
         </div>

@@ -160,13 +160,7 @@
   .background {
     display: none;
   }
-}
-
-@media screen and (max-width: 550px) {
   .testimonials {
-    &__wrap {
-      max-width: 90%;
-    }
     &__wrap-try {
       margin-top: 60px;
       width: 90%;
@@ -176,6 +170,14 @@
       &-button {
         margin-top: 16px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .testimonials {
+    &__wrap {
+      max-width: 90%;
     }
   }
 }

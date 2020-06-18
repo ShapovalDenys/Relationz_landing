@@ -63,3 +63,21 @@
     }
   }
 }
+
+@media screen and (max-width: 850px) {
+  .footer {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    &__nav {
+      display: grid;
+      grid-template-columns: repeat(2, 140px);
+      & ul {
+        text-align: center;
+      }
+    }
+  }
+}
