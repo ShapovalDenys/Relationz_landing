@@ -9,7 +9,7 @@
     border-radius: 50%;
     & img {
       position: relative;
-      top: 15px;
+      top: 13px;
       left: 11px;
     }
   }
@@ -113,6 +113,9 @@
 
 @media screen and (max-width: 850px) {
   .sync {
+    &__icon {
+      display: none;
+    }
     margin-top: 40px;
     &__wrap {
       flex-direction: column;

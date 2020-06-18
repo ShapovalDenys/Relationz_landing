@@ -33,11 +33,11 @@ const [isActiveMenu, setIsActiveMenu] = useState(false)
 
         <div className="mobile__menu">
           <button
-            class={isActiveMenu ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse"}
+            className={isActiveMenu ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse"}
             type="button"
             onClick={() => setIsActiveMenu(!isActiveMenu)}>
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
             </span>
           </button>
         </div>

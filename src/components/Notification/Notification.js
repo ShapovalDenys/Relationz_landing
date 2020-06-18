@@ -16,7 +16,7 @@ function Notification() {
             alt="notification-user"
           />
           <p>
-            You have a meeting with
+            You have a meeting with{' '}
             <strong>Surbhi </strong>
             to help her with her portfolio. She got a new pet (Dog named Tiger).
           </p>

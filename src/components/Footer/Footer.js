@@ -75,7 +75,7 @@ function Footer() {
         </li>
       </ul>
       </nav>
-      <h3 className="footer__article">Relationz</h3>
+      <a href="/#" className="footer__article">Relationz</a>
       <p className="footer__copyright">Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.</p>
       <div className="footer__decoration"><div></div></div>
     </footer>

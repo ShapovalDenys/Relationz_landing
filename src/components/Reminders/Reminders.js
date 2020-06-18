@@ -24,7 +24,8 @@ function Reminders() {
             name="text"
             placeholder="Find classes, task and anything..."
             className="reminders__form-input"
-            maxLength={60}
+            maxLength={100}
+            required
           />
           <button
             type="submit"

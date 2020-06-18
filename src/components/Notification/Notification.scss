@@ -75,6 +75,8 @@
       font-size: 25px;
       line-height: 30px;
       color: #222;
+      margin-bottom: 16px;
+      margin-top: 35px;
     }
     & p {
       font-style: normal;
@@ -95,14 +97,27 @@
 @media screen and (max-width: 850px) {
   .notification {
     margin-top: 80px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    &__decoration-2 {
+      opacity: 0.2;
+    }
+    &__decoration-1 {
+      display: none;
+    }
     &__messages {
       max-width: 90%;
+    }
+    &__message {
+      justify-content: flex-start;
+      & p {
+        margin-bottom: 0;
+      }
     }
     &__description {
       max-width: 90%;
       text-align: center;
+      margin-bottom: 30px;
       &-mark {
         display: grid;
         grid-template-columns: repeat(2, 140px);
